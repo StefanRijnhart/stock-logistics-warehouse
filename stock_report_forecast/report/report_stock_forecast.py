@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-
+# Disable pep8 checks. Not refactoring to preserve code layout with respect to
+# upstream code for easy porting of followup changes.
+# flake8: noqa
 
 from openerp import fields, models
 from openerp import tools
