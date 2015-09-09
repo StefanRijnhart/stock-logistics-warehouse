@@ -1,1 +1,1 @@
-import report_stock_forecast
+from . import report_stock_forecast
